@@ -12,9 +12,9 @@
 Créer un repository sur GitHub:
 * git remote add origin https://github.com/AntonnGazagne/isen-.NetCore.git
 * faire un commit initial de nos sources:
-** git add .
-** git commit -m "initial commit"
-** git push origin master
+ * git add .
+ * git commit -m "initial commit"
+ * git push origin master
 
 Créer un projet Console, dans un sous-dossier src:
 * Créer le dossier src/ et naviguer dedans
@@ -25,11 +25,11 @@ Créer le fichier solution(.sln):
 * naviguer vers la racine du projet
 * Créer le fichier .sln: dotnet new sln
 * ajouter les différents éléments de la solution à ce projet(projet console)
-** dotnet sln add src/isen.DotNet.ConsoleApp/
+ * dotnet sln add src/isen.DotNet.ConsoleApp/
 
 Créer un dossier src/isen.DotNet.Library et naviguer dedans
 * Avec la CLI .Net (dont l'interface en ligne de commande,que l'on utilise depuis le début), créer un projet de type 'librairie de classe': 
-** dotnet new classlib
+ * dotnet new classlib
 
 Référencer ce nouveau projet dans le fichier de solution (.sln)
 * Depuis la racine: dotnet sln add src/isen.DotNet.Library
@@ -39,7 +39,7 @@ Ajouter le projet Library comme référence du projet ConsoleApp:
 * dotnet add reference ../isen.DotNet.Library
 
 #  Le C#
-## Création d'une classe Hellow
+## Création d'une classe Hello
 Supprimer la classe autogénérée (class1.cs)
 Créer un fichier Hello.cs et coder la classe
 
